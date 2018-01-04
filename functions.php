@@ -51,3 +51,9 @@ function ark_register_styles() {
 	// TwentyTwenty
 	wp_enqueue_style('twentytwenty', get_template_directory_uri() . '/assets/plugins/twentytwenty/css/twentytwenty.css', array() );
 }
+
+add_action( 'wp_enqueue_scripts', 'child_enqueue_styles');
+
+function child_enqueue_styles() {
+    wp_enqueue_style( 'ad-style', get_template_directory_uri() . '/dist/ad.css', array());
+}
