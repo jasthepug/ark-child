@@ -44,12 +44,16 @@ body {
 
 .store-name {
   @extend h4;
+
+  display: block;
+  text-align: center;
 }
 
 .store-link {
   color: $white;
+  display: block;
   text-decoration: none;
-  transform: translateX(0);
+  transform: translateY(0);
   transition: transform .1s;
   will-change: transform;
 
@@ -57,7 +61,7 @@ body {
   &:focus {
     color: $white;
     text-decoration: none;
-    transform: translateX(-5px);
+    transform: translateY(-5px);
   }
 }
 
