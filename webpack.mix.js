@@ -11,7 +11,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.sass('scss/ad.scss', 'dist/');
+mix.sass('scss/ad.scss', 'dist/', {
+    includePaths: ['node_modules/bootstrap-sass/assets/stylesheets/']
+});
 
 // Full API
 // mix.js(src, output);
