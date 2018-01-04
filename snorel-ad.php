@@ -28,17 +28,17 @@ get_header('custom'); ?>
         <div class="col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4">
             <img src="https://thesquaremirrabooka.com.au/wp-content/uploads/2015/09/priceline.png"
                  class="img-responsive" alt="">
-            <span class="store-name text-center">Priceline</span>
+            <span class="store-name">Priceline</span>
         </div>
         <div class="col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4">
             <img src="https://thesquaremirrabooka.com.au/wp-content/uploads/2015/09/priceline.png"
                  class="img-responsive" alt="">
-            <span class="store-name text-center">Priceline</span>
+            <span class="store-name">Priceline</span>
         </div>
         <div class="col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4">
             <img src="https://thesquaremirrabooka.com.au/wp-content/uploads/2015/09/priceline.png"
                  class="img-responsive" alt="">
-            <span class="store-name text-center">Priceline</span>
+            <span class="store-name">Priceline</span>
         </div>
     </div>
     <div class="row availability">
@@ -49,14 +49,14 @@ get_header('custom'); ?>
             <a class="store-link" href="#1">
                 <img src="https://thesquaremirrabooka.com.au/wp-content/uploads/2015/09/priceline.png"
                      class="img-responsive" alt="">
-                <span class="store-name text-center">Priceline</span>
+                <span class="store-name">Priceline</span>
             </a>
         </div>
         <div class="col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4">
             <a class="store-link" href="#2">
                 <img src="https://thesquaremirrabooka.com.au/wp-content/uploads/2015/09/priceline.png"
                      class="img-responsive" alt="">
-                <span class="store-name text-center">Priceline</span>
+                <span class="store-name">Priceline</span>
             </a>
         </div>
     </div>
