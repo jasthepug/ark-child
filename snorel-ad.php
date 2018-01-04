@@ -6,3 +6,5 @@
  */
 
 get_header('custom'); ?>
+
+<?php get_footer(); ?>
