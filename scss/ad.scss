@@ -35,11 +35,11 @@ body {
 }
 
 .text-secondary {
-  color: $secondary;
+  color: $secondary !important;
 }
 
 .text-muted {
-  color: $muted;
+  color: $muted !important;
 }
 
 .store-name {

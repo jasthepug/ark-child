@@ -12,8 +12,6 @@
             <p class="text-muted disclaimer">
                 <?php echo $trademark_text; ?>
             </p>
-            <?php
-            ?>
         <?php endwhile; // end of the loop. ?>
     </div>
 </div>
