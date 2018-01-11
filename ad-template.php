@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Snorel Ad
+ * Template Name: Ad template
  * description: >-
   Snorel Ad page
  */
