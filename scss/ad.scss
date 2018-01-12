@@ -17,6 +17,7 @@ $white: #ffffff;
 $secondary: #F5D3C8;
 $muted: #5C9EAD;
 $gray: #747675;
+$text: #333;
 
 body,
 html {
@@ -25,8 +26,8 @@ html {
 }
 
 body {
-  background-color: $navy-blue;
-  color: $white;
+  background-color: $white;
+  color: $text;
 }
 
 .page-container {
@@ -34,8 +35,8 @@ body {
   padding-top: 3rem;
 }
 
-.text-secondary {
-  color: $secondary !important;
+p {
+  font-size: 1rem;
 }
 
 .text-muted {
