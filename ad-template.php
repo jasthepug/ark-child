@@ -32,7 +32,7 @@ get_header('custom'); ?>
             ?>
             <section class="row availability">
                 <div class="col-xs-12">
-                    <h2 class="heading">Available at:</h2>
+                    <h2 class="heading">Available In Store at:</h2>
                 </div>
                 <?php
                 foreach ((array)$entries_store as $key => $entry) {
