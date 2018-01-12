@@ -11,9 +11,13 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.sass('scss/ad.scss', 'dist/', {
-    includePaths: ['node_modules/bootstrap-sass/assets/stylesheets/']
-});
+mix.setPublicPath('dist/')
+    .sass('scss/ad.scss', 'dist/', {
+    includePaths: ['node_modules/bootstrap-sass/assets/stylesheets/'] });
+
+if (mix.inProduction()) {
+    mix.version();
+}
 
 // Full API
 // mix.js(src, output);

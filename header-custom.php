@@ -10,5 +10,6 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/no-ff/iconfonts/ff-font-et-line/ff-font-et-line.css"; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/style.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/dist/ad.css'; ?>">
+    <link rel='shortcut icon' type='image/x-icon' href='<?php echo get_stylesheet_directory_uri() . '/images/favicon.ico'?>' />
 </head>
 <body>
