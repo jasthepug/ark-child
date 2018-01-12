@@ -130,6 +130,15 @@ p {
   margin-top: 2rem 0;
 }
 
+.list-unstyled li {
+  margin: 5px 0;
+
+  > i {
+    color: $muted;
+    margin-right: 10px;
+  }
+}
+
 .margin-none {
   margin: 0 !important;
 }
